@@ -1,0 +1,247 @@
+{
+  "patterns": {
+    "0fa3f35b7f17ba183b55874ed34f34b9dfd42a96": {
+      "actions": {
+        "fill_missing(row_id=34, column='city', value='Denver')": {
+          "attempts": 1,
+          "cumulative_reward": 0.47,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "11ef7431147857285b2046abba4c938d39542f56": {
+      "actions": {
+        "normalize_column(column='email')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2738,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "468a9ffd1e161a3b120e50a2d283b5a2bea91b78": {
+      "actions": {
+        "delete_row(row_id=23)": {
+          "attempts": 1,
+          "cumulative_reward": 0.13,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "47741633a233a9bfecedd98ec5d8a0cafed7aa58": {
+      "actions": {
+        "normalize_column(column='city')": {
+          "attempts": 1,
+          "cumulative_reward": 0.4363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "84f1a657f98b24e5c81396ebede79cb10b4bd759": {
+      "actions": {
+        "remove_duplicate(row_id=33)": {
+          "attempts": 1,
+          "cumulative_reward": 0.43,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "a4f3a4b48581add24c1541d266ca386ca1048501": {
+      "actions": {
+        "normalize_column(column='name')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "b2557fa133ca411bea9c1d016bb1022ef521dd12": {
+      "actions": {
+        "delete_row(row_id=26)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2657,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "bac5c03eaec86e5eca3602c18787e7b8dd71ce77": {
+      "actions": {
+        "fill_missing(row_id=35, column='email', value='peak.systems@example.com')": {
+          "attempts": 1,
+          "cumulative_reward": 0.24,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "c9a1695ddb1fd7a56fcd89d0855f3e6c3cc0539f": {
+      "actions": {
+        "remove_duplicate(row_id=13)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3737,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "e133231c2a2fe412ce1265f027ce61ff2616d497": {
+      "actions": {
+        "remove_duplicate(row_id=22)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3443,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    }
+  },
+  "states": {
+    "0cc9851ce3eac00c3a8ba813a0bbe5086b6b28c7": {
+      "actions": {
+        "fill_missing(row_id=35, column='email', value='peak.systems@example.com')": {
+          "attempts": 1,
+          "cumulative_reward": 0.24,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "338f581f2bb3d33b1ca9113338487576d7221075": {
+      "actions": {
+        "remove_duplicate(row_id=13)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3737,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "3641040a720ad30712929dfc63af936f954c7048": {
+      "actions": {
+        "delete_row(row_id=26)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2657,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "4cdcb94d06f82ed5c380e36d4737c98095c1d8e5": {
+      "actions": {
+        "fill_missing(row_id=34, column='city', value='Denver')": {
+          "attempts": 1,
+          "cumulative_reward": 0.47,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "72db3bd5a5ba3a4f64815e20b59ccf3b9ce6b2ad": {
+      "actions": {
+        "remove_duplicate(row_id=33)": {
+          "attempts": 1,
+          "cumulative_reward": 0.43,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "a3e1f7d06da6a2a3bfc3ca13a3a9ae20ff116705": {
+      "actions": {
+        "delete_row(row_id=23)": {
+          "attempts": 1,
+          "cumulative_reward": 0.13,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "be2f2def033a20dab83499d31cbe7ac8ba296d8e": {
+      "actions": {
+        "normalize_column(column='name')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "c02de8edbfcfa72f061a9ac1827b98c070f1208e": {
+      "actions": {
+        "remove_duplicate(row_id=22)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3443,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "d30ee334a5d05193f192a491cf4e069c1b494b21": {
+      "actions": {
+        "normalize_column(column='city')": {
+          "attempts": 1,
+          "cumulative_reward": 0.4363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "f1c2df4babd9a79a88196afded5618bb0ce3d72b": {
+      "actions": {
+        "normalize_column(column='email')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2738,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    }
+  },
+  "version": 1
+}

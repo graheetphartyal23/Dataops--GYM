@@ -1,0 +1,16 @@
+# OpenEnv configuration for `dataops-env`.
+# Responsibility: declare minimal environment metadata and task registration.
+
+name: dataops-env
+description: Multi-step enterprise data cleaning environment
+version: "1.0.0"
+runtime:
+  python: "3.10+"
+entrypoint: env:DataOpsEnv
+tasks:
+  easy:
+    factory: task:easy_cleaning_task
+  medium:
+    factory: task:medium_normalization_task
+  hard:
+    factory: task:hard_conflict_resolution_task

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+agent-tools/
+terminals/
