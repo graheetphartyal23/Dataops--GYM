@@ -58,6 +58,22 @@ async def unhandled_exception_handler(
     )
 
 
+@app.get("/")
+def root() -> Dict[str, Any]:
+    """Return a lightweight root payload for browser and Space checks."""
+
+    return {
+        "name": "dataops-env",
+        "status": "ok",
+        "endpoints": {
+            "health": "/health",
+            "reset": "POST /reset",
+            "step": "POST /step",
+            "state": "GET /state",
+        },
+    }
+
+
 @app.get("/health")
 def health() -> Dict[str, str]:
     """Return a lightweight deployment health signal."""
