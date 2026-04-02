@@ -14,7 +14,7 @@ from threading import RLock
 from typing import Any, Dict, Optional
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 from pydantic import BaseModel, Field
 import uvicorn
 
@@ -58,20 +58,11 @@ async def unhandled_exception_handler(
     )
 
 
-@app.get("/")
-def root() -> Dict[str, Any]:
-    """Return a lightweight root payload for browser and Space checks."""
+@app.get("/", include_in_schema=False)
+def root() -> RedirectResponse:
+    """Redirect the Space landing page to FastAPI docs."""
 
-    return {
-        "name": "dataops-env",
-        "status": "ok",
-        "endpoints": {
-            "health": "/health",
-            "reset": "POST /reset",
-            "step": "POST /step",
-            "state": "GET /state",
-        },
-    }
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health")
