@@ -1,7 +1,7 @@
 ---
 
 title: Dataops Env
-emoji: 📊
+emoji: 🧼
 colorFrom: indigo
 colorTo: gray
 sdk: docker
@@ -10,7 +10,7 @@ pinned: false
 
 ---
 
-# 🧠 DataOps Gym
+# ✨ DataOps Gym
 
 ### ⚡ The First Hallucination-Aware Data Cleaning Environment
 
