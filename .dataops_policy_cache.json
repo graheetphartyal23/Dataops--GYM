@@ -1,0 +1,2543 @@
+{
+  "patterns": {
+    "007ae198a2d5da840d955c00cb7e5fbde1cf4228": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "04941bd4fae9e4d5ad285866a4cff357f8415710": {
+      "actions": {
+        "fix_value(record_id='34', field='city', value='Miami', confidence=0.75)": {
+          "attempts": 7,
+          "cumulative_reward": 5.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "059a5577e3361531429ccd944ca65e11e605557e": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "0a11e2efaa2a5cdf3c1482d42c55f48654e50570": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "0f0c98ab1aa6b100f93d21f256e3f8629ab26900": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "0fa3f35b7f17ba183b55874ed34f34b9dfd42a96": {
+      "actions": {
+        "fill_missing(row_id=34, column='city', value='Denver')": {
+          "attempts": 1,
+          "cumulative_reward": 0.47,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "1066b754aaaa5aec39bbf885f274a9c02a0c21e7": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "11c4905093da8d0a938063d9d6d6f5825df2852d": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "11ef7431147857285b2046abba4c938d39542f56": {
+      "actions": {
+        "normalize_column(column='email')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2738,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "135c963b35923328a81c1a8bca02e6424003c662": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "13ea433aadce1c77acf8f43a791e79d2b932eca0": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 2.15,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "1442f1407527d7bc1ea5f9c4935ea81b0a8bca79": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.75,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "1618f6a33ea5f43e0d2b156b70dcd27f0d726038": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "1cc337322552275db42f7a3bc953c6c1b4d7a04f": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "25c04e846ec996fac4c361e9341e37e30df1892c": {
+      "actions": {
+        "detect_issue(record_id='35', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 1.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "29bb73db020c3a64b4b9baef69389fe364b38a01": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "2c615f702a18f3c8bb92f2ff620957ad81a5b5b1": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "2e24f4b95399876aca662404e3f119889922c738": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "3141c57792570551e62e76356e98ee391763b086": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.45,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "detect_issue(record_id='14', field='email', confidence=0.85)": {
+          "attempts": 3,
+          "cumulative_reward": 0.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 3,
+          "successes": 0
+        },
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.75,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "3bb106618f2da4987d77faf694ef91a6ddcd9a8f": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "3bffdf3d1ac6f716b6f07ab3e82e59752be32910": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "3ce27c090b1a372beb0943fff571941d916ae0d9": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "40e59cdcb7f8dca17021c900448aa53187c754ab": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "4247e404cd894ef9db36b959367f1381e1ee3020": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "468a9ffd1e161a3b120e50a2d283b5a2bea91b78": {
+      "actions": {
+        "delete_row(row_id=23)": {
+          "attempts": 1,
+          "cumulative_reward": 0.13,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "47134f7f461c8f69294782097bbca50fa11a6c08": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "47741633a233a9bfecedd98ec5d8a0cafed7aa58": {
+      "actions": {
+        "normalize_column(column='city')": {
+          "attempts": 1,
+          "cumulative_reward": 0.4363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "4f310f9099d60bed685d35697d6ac8ef298aec50": {
+      "actions": {
+        "detect_issue(record_id='23', field='age', confidence=0.9)": {
+          "attempts": 1,
+          "cumulative_reward": 0.45,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "50a82dd8ab9e6a5fddc9d0e79eca279bcdb9fd1b": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "510c5792709222fac4a407561ecf48b0445ae0a6": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "518ad3375b41c6ca8ea14fde09a1e90ae4b3ddba": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "528db17f5677fe3de252da0fe7366a7c54f85cf5": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "59855d529f4f372a2c0781d87eb21b73b272ebf3": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "5b03ebf6a1f6fe758e229fdea52e0ceeed066cb4": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "5b5403d6d8a262bb98700e8d9818a6a4a88c5d2a": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "5d3ad58ea30f1df8863262f53d0a19e613fecc79": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "5de63066a6df31b2a6a9443de97cc300d2b3ff5c": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "62952008c654d45d935c6f01a697e8308bbcb40b": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "657e83e818f00db065d2d40e4b5a391e6cd37c22": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "675f0f6f5beea16aea0fa59733369b9ffcdfdb0a": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "68acff2345d3bae37c0271535ba1d7a0de66c805": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "7084bdd5bfd69e211ee3c6fd770348e11be8b538": {
+      "actions": {
+        "fix_value(record_id='11', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 5,
+          "cumulative_reward": 3.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 5,
+          "successes": 0
+        }
+      }
+    },
+    "75e1b7c3382cf59433f18e84274740c702e71c9c": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "77c8146f7a2f152172eb8e4955cb5b1d98996d05": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "795581ad7f0904d728264bb90c3cfca3317f4fc0": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "7a59ed7647a96f0d839eba15278188adcf08ddfd": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "84f1a657f98b24e5c81396ebede79cb10b4bd759": {
+      "actions": {
+        "remove_duplicate(row_id=33)": {
+          "attempts": 1,
+          "cumulative_reward": 0.43,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "86da15b1ce6ee8f9395072e33b971f743a4e5845": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "86e3b7e40f2897dc2742e7afa8a2df0d29881694": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "87a48f55e2b33c7200e6d1cfd69c233f724ac69b": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 3,
+          "cumulative_reward": 0.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 3,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "8dd35f3f9e53029e2cf04d37a707d9b0f29ed8bb": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "8ec0b4b03d58a924b8647ba479e2f8719546c124": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "9169143f3b9676bd7b681535ad0415b718745ced": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "987c9a048f7b1e92e6dbb5aacbc8d1ec53f05a21": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 9,
+          "cumulative_reward": 2.65,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 9,
+          "successes": 0
+        }
+      }
+    },
+    "9a8dd376f11391c6efbffdc8a2018712f5a3cece": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "9de61077b420daf0adb2eaf810f486639fba2bc0": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "a0823130f563cf754568ebacf8c0d2d3e8b57c43": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.45,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "a08daa22430e2593a7f46a196bf5dbcbf6eb0a89": {
+      "actions": {
+        "fix_value(record_id='35', field='email', value='peak.systems@example.com', confidence=0.75)": {
+          "attempts": 7,
+          "cumulative_reward": 5.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "a4f3a4b48581add24c1541d266ca386ca1048501": {
+      "actions": {
+        "normalize_column(column='name')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "a6c2388c2ebd383c4a77390b55e8c1c2bb246a17": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "a6e2436f3b3f0cc2856982fe4748abba7084dfe6": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "ac164257e6f21c4cf4445bf3ece19ddaacd81a76": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "ac446781dcafd6be3f9b07263fd8a50251144567": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "b2557fa133ca411bea9c1d016bb1022ef521dd12": {
+      "actions": {
+        "delete_row(row_id=26)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2657,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "b34a5c7a5c32d3990b9753be462dc94cb9b370f1": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "b5b065adffaa8ffab7b955c9daffd0e76328c49e": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "b7357c7ddc139154611698c09c21349c3660c5bd": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "bac5c03eaec86e5eca3602c18787e7b8dd71ce77": {
+      "actions": {
+        "fill_missing(row_id=35, column='email', value='peak.systems@example.com')": {
+          "attempts": 1,
+          "cumulative_reward": 0.24,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "bd1569c12944472549e2dd4209e99f59bd0bcace": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "bfbb3132c1c237d429651c6b849545e961aafc21": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "c03d4bf5313672c6a7fdec4341cfdec496b2412d": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 2.15,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "c206450bb5489dc955d1fd0c70114e24a314a00e": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "c207f77a965736c5ecf1d05a0655c299d9c330ca": {
+      "actions": {
+        "detect_issue(record_id='23', field='age', confidence=0.9)": {
+          "attempts": 4,
+          "cumulative_reward": 1.8,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 4,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "c21307ba15971731535950595e9ee59b1ec87bfd": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "c9a1695ddb1fd7a56fcd89d0855f3e6c3cc0539f": {
+      "actions": {
+        "remove_duplicate(row_id=13)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3737,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "cb4ee2a8f504244e18013821714aebecf3adafc6": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "ccd9f8c0652ad477c56d438cef96f0a4feb1baa5": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "d56199e1b129e467d270a9592b523f9da84c28a7": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "d5ba45a5d84f8e1de107241c5213379a25a1d4b1": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "d8fc9704ebc5bbae6b7fcc450c85104c09ec4b3c": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "de87365ad5c85e54d645355ba6f8b23cb10822f2": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "df81e3a762d4ca25b055fe95eed1aca4b5d40a40": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "dff2c2346394f677c4296bfdf13594a0e0d5bc27": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e0d33e7c81582328c208ed269359e09f7952adee": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "e133231c2a2fe412ce1265f027ce61ff2616d497": {
+      "actions": {
+        "remove_duplicate(row_id=22)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3443,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "e207ce6c4cf4ef62ce0288a8b9eb85af110fca3c": {
+      "actions": {
+        "detect_issue(record_id='14', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.5,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "e5fc635d0652c22f7800f88536a6be87d13bb3ca": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e63dde2f52fbe00b364d040c7afc2f8b7e133bf4": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "ecd0f98c590a6e86ae51559e8b2b40e2e925e705": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "f354dd3528ff7fb7a0fa852c86669208b06f5545": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "fb8a8008e048a08b03a7a0dff159f04951aa39f7": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "fccb04858459d332dcfac5d0820dbec20cd9c42b": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "fd9ba8b4a4a8544ce508394ffccfdd2d2f2b31d0": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    }
+  },
+  "states": {
+    "05b38e7cc2c8eee610bca58cf86a32d137cf96a2": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "06dc49bae93701ba3e1edef3f4c009a4c9c95583": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "0a279a91cd27d1c0b7206d8edf38e43b9a978a16": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "0a3ea819de7e1eb80e76fd9b5065927e491ba7b5": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "0aed36e6cfecb7393f9b16f96e8b7575e99df224": {
+      "actions": {
+        "fix_value(record_id='34', field='city', value='Miami', confidence=0.75)": {
+          "attempts": 7,
+          "cumulative_reward": 5.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "0cc9851ce3eac00c3a8ba813a0bbe5086b6b28c7": {
+      "actions": {
+        "fill_missing(row_id=35, column='email', value='peak.systems@example.com')": {
+          "attempts": 1,
+          "cumulative_reward": 0.24,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "19342d4ceda87bc21ffe8eac086a763c57645fba": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "1b18893aec3be33e6a1549599c97e5a5e1a5a1f1": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "1beae0cb05360a2928bc5dcc21b1a92a5505e002": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "1ccadbb2cbed0578a7b8044da2ecf65efb1504c3": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "1fe620a7911d5633246abfbf131db8e0e048d3c0": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "206bc9b2d25cf0884fcc9b6c98848341f0fda3b8": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "253733a5a302ccd0eca0ade9fbee834b60ccbc1e": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "2664b3e0cd0985d079790c7117d0e6072c6456b3": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "29fabf67c81a4d8f96848f3ac66b0602f6d2c93b": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "2efc4098afb32626d3a3c9ad52af1c02d10e93c0": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "338f581f2bb3d33b1ca9113338487576d7221075": {
+      "actions": {
+        "remove_duplicate(row_id=13)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3737,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "3641040a720ad30712929dfc63af936f954c7048": {
+      "actions": {
+        "delete_row(row_id=26)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2657,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "36b47fa93aa11f17becb90f18dbf6582fb2ec514": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 9,
+          "cumulative_reward": 2.65,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 9,
+          "successes": 0
+        }
+      }
+    },
+    "3971afeb6c5769373317e730e1fa22b79926abd2": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.45,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "3c7910b58561fe75695c7e75c890096daccd7b38": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "3e8c0a9c3535062944e96f272d9cf4ca22f79f00": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "40f3f342f9cb468fd99daca73da0d942239bb7b4": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "43849091b7ec0285d53114fa19cc72f3b77e00a0": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "45d87b29a7188d7bcccc402f83102298096821db": {
+      "actions": {
+        "detect_issue(record_id='23', field='age', confidence=0.9)": {
+          "attempts": 1,
+          "cumulative_reward": 0.45,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "4cdcb94d06f82ed5c380e36d4737c98095c1d8e5": {
+      "actions": {
+        "fill_missing(row_id=34, column='city', value='Denver')": {
+          "attempts": 1,
+          "cumulative_reward": 0.47,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "5009b95457368ae3d4b84259ac60000622ed0e0f": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "5211bae9b43ac84d3c095fba9433c2a568e7b9b1": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 3,
+          "cumulative_reward": 0.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 3,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "57965bdaef45efd314d035e3e9d5b92c49743626": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "5983abe8f57b4f614e3e95e9c4666f741fba9ed8": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "6219135ee9dd169a3e1098a5ef566c978bcfc4fc": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "6326b6ea2986431447c9214cf6b43baa008a8560": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "6553a809dc7797cd4389fde06d163616f85a6d96": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "65bcacf43bf1ce915763534104bc656020107890": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "6740f0396352417096922ad20b1b84f027c49a12": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "6760f7d570ee13de76ab541d1c6875fef6c630c7": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "6b7b61e21caaefe85b886511b1451defbc246770": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "6c7917335818c68bc64a088a1a326c824fa7ab43": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "6e6d11d30bea4e58656ab07e496e96453de01c9d": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "72db3bd5a5ba3a4f64815e20b59ccf3b9ce6b2ad": {
+      "actions": {
+        "remove_duplicate(row_id=33)": {
+          "attempts": 1,
+          "cumulative_reward": 0.43,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "76de878e10b4e159f6cd9cdfbc90de1ec4736d72": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "7b4a5e7c8bbacb89333063960c2d5ca4e9696830": {
+      "actions": {
+        "detect_issue(record_id='35', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 1.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "7e9abda480fc16d2e98901cb3e5f8c69bcf00154": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "7f0609ac63ee0e9eb8a2c3b2b0e4e4e111eabccf": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "7fea5d1f461c8c7504ff823f975fd1c5a1043c3e": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "810a123bc9615210a00c051d417ddeaa4e1d79c2": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "82bcd3719fa072df707022449891f88a1125fdc1": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "8b5776861b8c4e6fc3653e0a4a19836c6bebda37": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "8cabdafb03a4fcdafa3062aaa1afd72273f15e70": {
+      "actions": {
+        "fix_value(record_id='11', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 5,
+          "cumulative_reward": 3.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 5,
+          "successes": 0
+        }
+      }
+    },
+    "8e0b9dc44fda5371173de5e183d95645bfab49b7": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 2.15,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "8f803837af83a5b7fe1d3f862b59be1cc9c00391": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "90d202fc60bf4e441652524a31c88d17ff3ab6a4": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "920ec2b49e603797712a90ac2f45fa52f20fd9fa": {
+      "actions": {
+        "fix_value(record_id='35', field='email', value='peak.systems@example.com', confidence=0.75)": {
+          "attempts": 7,
+          "cumulative_reward": 5.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "9318317b9ae4055946edcbd677b38cfde35b2d29": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "944e3de12649db808880d04c8964a1ad5e287e2e": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "970b6fdaf27df97dbfa6e07f20172c00debf7b7e": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "98de5becbad1c928b3d71db499ef63589706691b": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "99137a33a95817cfb6555b969ee898b6bc48ef32": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "9c729d176d133611564720af2b4e75f67a6a575e": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "a099821c4681522fafca6d6f3c63996095ed6ec9": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "a3e1f7d06da6a2a3bfc3ca13a3a9ae20ff116705": {
+      "actions": {
+        "delete_row(row_id=23)": {
+          "attempts": 1,
+          "cumulative_reward": 0.13,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "a448bc2b9a94786dff96162ec647b27b6a856a06": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.75,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "a797cf83a440f34bf1b8ef60726f39b9e3864f13": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "ac9513d2096175a1426b22edbe72fb3d83966354": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "adb100a72ec60305c8b6f8f22d1b0394f34d36b9": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 2,
+          "cumulative_reward": 0.4,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "b3790636c478c34fa66bbd5fc25578fb23ce1921": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "baac8e73d1022fe8e47f059a428cf69e0f1d17fb": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "bb152ff4b356256ac4786c2d99c7e55a04d5f64a": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.2,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "bbecdf7b4b0d4b52d1513ba52a4e884e615b6923": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "bde9fe1e56d0d926048c1d16ea2f3d1544aeec71": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "be2f2def033a20dab83499d31cbe7ac8ba296d8e": {
+      "actions": {
+        "normalize_column(column='name')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "be9e378b859608b413359a3497e7f21cd7274bb2": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.45,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "detect_issue(record_id='14', field='email', confidence=0.85)": {
+          "attempts": 3,
+          "cumulative_reward": 0.75,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 3,
+          "successes": 0
+        },
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.75,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "c02de8edbfcfa72f061a9ac1827b98c070f1208e": {
+      "actions": {
+        "remove_duplicate(row_id=22)": {
+          "attempts": 1,
+          "cumulative_reward": 0.3443,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "c62bbbfa415fd18624abdfce616a0b448395df66": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "cdc423262facd08ea0092e66c026253df798367c": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "d30ee334a5d05193f192a491cf4e069c1b494b21": {
+      "actions": {
+        "normalize_column(column='city')": {
+          "attempts": 1,
+          "cumulative_reward": 0.4363,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 1
+        }
+      }
+    },
+    "d926264c08977bb595608f0f36f70bd3fa6772c7": {
+      "actions": {
+        "detect_issue(record_id='23', field='age', confidence=0.9)": {
+          "attempts": 4,
+          "cumulative_reward": 1.8,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 4,
+          "successes": 0
+        },
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "dd0ba9dfd8e0d2ae2ce6bb46eb95cbb592154605": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 7,
+          "cumulative_reward": 2.15,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 7,
+          "successes": 0
+        }
+      }
+    },
+    "df3a9dc761b999fe49fb6975ddc6317a9e47aa62": {
+      "actions": {
+        "detect_issue(record_id='11', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "dfc06b3edfadc1aa46c0e85b23d280219dcdf7fc": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "dfd1eb98bc53a21ccb439bbefd4a0ce2c7f03ff6": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e013e5e1953c13426b1530335853a2eb7469f8b3": {
+      "actions": {
+        "fix_value(record_id='23', field='email', value='evan.cole@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.7,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e1f5ef8958b3eaca953c873c6b16bad06ef4cd38": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e2918aee6468be696070506760ea59e38a8d2b60": {
+      "actions": {
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 1,
+          "cumulative_reward": -0.15,
+          "failures": 1,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e4395e03513ab72a1635eb34351a289ad10f9895": {
+      "actions": {
+        "detect_issue(record_id='23', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "e802722c2f24d9abd29985e5bd7c13cea9f28a9e": {
+      "actions": {
+        "detect_issue(record_id='13', field='email', confidence=0.85)": {
+          "attempts": 1,
+          "cumulative_reward": -0.5,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        },
+        "fix_value(record_id='14', field='email', value='li.wei.example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.6,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "e83805fb3a6e13de95515123b54e3b9968977891": {
+      "actions": {
+        "detect_issue(record_id='34', field='city', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.9,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "eb28fddd5be7d34704ff59d868e8d75bc65eee9d": {
+      "actions": {
+        "cannot_determine(record_id='23', field='age', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": 0.25,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "f1c2df4babd9a79a88196afded5618bb0ce3d72b": {
+      "actions": {
+        "normalize_column(column='email')": {
+          "attempts": 1,
+          "cumulative_reward": 0.2738,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 1,
+          "successes": 0
+        }
+      }
+    },
+    "f3374f49a7ed755e7ac4d0e0ee2ee8470cc100d7": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "fa2129eda93b530f1f7bac7598ffea900bb8bd79": {
+      "actions": {
+        "skip(record_id='0', field='record', confidence=0.0)": {
+          "attempts": 7,
+          "cumulative_reward": 0.0,
+          "failures": 7,
+          "last_error": null,
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    },
+    "fb99b6a2297e07d5a7ceebc7200a4ab9eced8278": {
+      "actions": {
+        "detect_issue(record_id='14', field='email', confidence=0.85)": {
+          "attempts": 2,
+          "cumulative_reward": 0.5,
+          "failures": 0,
+          "last_error": null,
+          "progresses": 2,
+          "successes": 0
+        }
+      }
+    },
+    "fdd6d8e22c69ac5d499a520bfab597eb0a4ee097": {
+      "actions": {
+        "fix_value(record_id='13', field='email', value='omar.hassan@example.com', confidence=0.8)": {
+          "attempts": 1,
+          "cumulative_reward": -0.8,
+          "failures": 1,
+          "last_error": "step_error",
+          "progresses": 0,
+          "successes": 0
+        }
+      }
+    }
+  },
+  "version": 1
+}
